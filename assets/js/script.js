@@ -57,16 +57,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
   const timelineItems = document.querySelectorAll(".timeline-item");
-  const sections = document.querySelectorAll(
-    ".experience-section, [id^='tek-'], [id^='tescra-'], [id^='sagarsoft-'], [id^='neudesic-'], [id^='liquidhub-']"
-  );
+  const timelineTargets = Array.from(timelineItems)
+    .map((item) => {
+      const targetId = item.dataset.target || item.dataset.company;
+      const target = targetId ? document.getElementById(targetId) : null;
+
+      return target ? { item, target } : null;
+    })
+    .filter(Boolean);
 
   function setActive(item) {
     timelineItems.forEach((timelineItem) => {
       timelineItem.classList.remove("active");
+      timelineItem.removeAttribute("aria-current");
     });
 
     item.classList.add("active");
+    item.setAttribute("aria-current", "location");
   }
 
   // Click a company to scroll to its experience section
@@ -82,19 +89,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
       if (target) {
         target.scrollIntoView({
-          behavior: "smooth",
+          behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
+            ? "auto"
+            : "smooth",
           block: "start"
         });
       }
-    });
-
-    // Temporarily highlight on hover
-    item.addEventListener("mouseenter", function () {
-      item.classList.add("hovered");
-    });
-
-    item.addEventListener("mouseleave", function () {
-      item.classList.remove("hovered");
     });
   });
 
@@ -112,14 +112,12 @@ document.addEventListener("DOMContentLoaded", function () {
         if (visibleSections.length) {
           const activeId = visibleSections[0].target.id;
 
-          const activeItem = Array.from(timelineItems).find(
-            (item) =>
-              item.dataset.target === activeId ||
-              item.dataset.company === activeId
+          const activeEntry = timelineTargets.find(
+            ({ target }) => target.id === activeId
           );
 
-          if (activeItem) {
-            setActive(activeItem);
+          if (activeEntry) {
+            setActive(activeEntry.item);
           }
         }
       },
@@ -130,43 +128,56 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     );
 
-    sections.forEach((section) => observer.observe(section));
+    timelineTargets.forEach(({ target }) => observer.observe(target));
   }
 });
 
 // Project-specific skill badges
 document.addEventListener("DOMContentLoaded", function () {
-  const projectTriggers = document.querySelectorAll(".project-hover-trigger");
-  const skillBadges = document.querySelectorAll(
-    ".journey-skills .skill-tags span[data-project-skills]"
+  const projectTriggers = Array.from(
+    document.querySelectorAll(".project-hover-trigger[data-project]")
   );
+  const skillBadges = document.querySelectorAll(
+    ".journey-skills .skill-tags span"
+  );
+  const skillGroups = document.querySelectorAll(".journey-skills .skill-group");
+  const skillsPanel = document.querySelector(".journey-skills");
 
-  if (!projectTriggers.length || !skillBadges.length) return;
+  if (!skillsPanel || !skillBadges.length) return;
 
-  let selectedProject = "time-off";
   let hoveredProject = null;
+  let visibleProject = null;
+  const visibleProjects = new Set();
 
-  function showProjectSkills(projectId) {
+  function refreshSkills() {
+    const activeProject = hoveredProject || visibleProject;
+    skillsPanel.classList.toggle("is-project-filtered", Boolean(activeProject));
+
     skillBadges.forEach(function (badge) {
-      const projects = badge.dataset.projectSkills
+      const projects = (badge.dataset.projectSkills || "")
         .trim()
-        .split(/\s+/);
-
-      const isVisible = projects.includes(projectId);
+        .split(/\s+/)
+        .filter(Boolean);
+      const isVisible =
+        !activeProject || projects.includes(activeProject);
 
       badge.classList.toggle("is-visible", isVisible);
       badge.setAttribute("aria-hidden", String(!isVisible));
     });
-  }
 
-  function refreshSkills() {
-    showProjectSkills(hoveredProject || selectedProject);
+    skillGroups.forEach(function (group) {
+      const hasVisibleBadges = group.querySelector(
+        ".skill-tags span.is-visible"
+      );
+      group.classList.toggle(
+        "is-empty",
+        Boolean(activeProject) && !hasVisibleBadges
+      );
+    });
   }
 
   projectTriggers.forEach(function (trigger) {
     const projectId = trigger.dataset.project;
-
-    if (!projectId) return;
 
     trigger.addEventListener("mouseenter", function () {
       hoveredProject = projectId;
@@ -178,23 +189,71 @@ document.addEventListener("DOMContentLoaded", function () {
       refreshSkills();
     });
 
-    trigger.addEventListener("focusin", function () {
-      hoveredProject = projectId;
-      refreshSkills();
-    });
-
-    trigger.addEventListener("focusout", function (event) {
-      if (!trigger.contains(event.relatedTarget)) {
-        hoveredProject = null;
-        refreshSkills();
-      }
-    });
-
-    trigger.addEventListener("click", function () {
-      selectedProject = projectId;
-      refreshSkills();
-    });
   });
 
-  showProjectSkills(selectedProject);
+  if ("IntersectionObserver" in window) {
+    const observer = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            visibleProjects.add(entry.target);
+          } else {
+            visibleProjects.delete(entry.target);
+          }
+        });
+
+        const activationY = window.innerHeight * 0.35;
+        const activeTarget = Array.from(visibleProjects)
+          .map(function (target) {
+            const bounds = target.getBoundingClientRect();
+            const distance =
+              activationY < bounds.top
+                ? bounds.top - activationY
+                : activationY > bounds.bottom
+                  ? activationY - bounds.bottom
+                  : 0;
+
+            return { target, distance };
+          })
+          .sort(function (a, b) {
+            return a.distance - b.distance;
+          })[0];
+
+        visibleProject = activeTarget
+          ? activeTarget.target.dataset.project
+          : null;
+        refreshSkills();
+      },
+      {
+        rootMargin: "-32% 0px -62% 0px",
+        threshold: 0
+      }
+    );
+
+    projectTriggers.forEach(function (trigger) {
+      observer.observe(trigger);
+    });
+  }
+
+  refreshSkills();
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const modal = document.getElementById("timeOffCaseStudy");
+
+  if (!modal) return;
+
+  let modalOpener = null;
+
+  modal.addEventListener("show.bs.modal", function (event) {
+    if (event.relatedTarget instanceof HTMLElement) {
+      modalOpener = event.relatedTarget;
+    }
+  });
+
+  modal.addEventListener("hidden.bs.modal", function () {
+    if (modalOpener && modalOpener.isConnected) {
+      modalOpener.focus();
+    }
+  });
 });
