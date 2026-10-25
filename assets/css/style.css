@@ -986,6 +986,20 @@ font-family: "Merriweather", serif;
   overflow: hidden;
 }
 
+.evolution-feature-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 124px;
+  height: 116px;
+  border-radius: 42% 48% 50% 44%;
+  background: #e9e8e8;
+  color: #8618ed;
+  font-size: 42px;
+  line-height: 0.65;
+}
+
 
 
 
