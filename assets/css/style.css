@@ -2655,6 +2655,179 @@ font-family: "Merriweather", serif;
   }
 }
 
+.role-collaboration-section {
+  padding: 0 0 36px;
+  color: #1e2930;
+  font-family: "Inter", sans-serif;
+}
+
+.role-collaboration-intro {
+  margin: 0 0 28px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.role-collaboration-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(180px, 1.1fr) minmax(0, 1fr);
+  gap: 20px;
+  align-items: stretch;
+}
+
+.role-team-column {
+  display: grid;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.role-team-card {
+  min-width: 0;
+  padding: 24px;
+  border-radius: 12px;
+  background: #f7f5f4;
+}
+
+.role-team-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  margin-bottom: 24px;
+  border-radius: 45%;
+  color: #111;
+  font-size: 28px;
+}
+
+.role-team-card--stakeholders .role-team-icon {
+  background: #c6f4f7;
+}
+
+.role-team-card--product .role-team-icon {
+  background: #ffd1d8;
+}
+
+.role-team-card--engineering .role-team-icon {
+  background: #ffe5d2;
+}
+
+.role-team-card--qa .role-team-icon {
+  background: #e7f0d5;
+}
+
+.role-team-card h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.role-team-card ul {
+  margin: 0;
+  padding-left: 22px;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.role-collaboration-diagram {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+
+.role-collaboration-diagram svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.role-connector {
+  fill: none;
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
+}
+
+.role-connector--stakeholders {
+  stroke: #00b8c8;
+}
+
+.role-connector--product {
+  stroke: #ff7c99;
+}
+
+.role-connector--engineering {
+  stroke: #ff8500;
+}
+
+.role-connector--qa {
+  stroke: #7cc987;
+}
+
+.role-collaboration-center {
+  z-index: 1;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: #f7f5f4;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .role-collaboration-layout {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas:
+      "diagram diagram"
+      "left right";
+  }
+
+  .role-team-column:first-child {
+    grid-area: left;
+  }
+
+  .role-team-column:last-child {
+    grid-area: right;
+  }
+
+  .role-collaboration-diagram {
+    grid-area: diagram;
+    min-height: 180px;
+  }
+}
+
+@media (max-width: 600px) {
+  .role-collaboration-layout {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      "diagram"
+      "left"
+      "right";
+    gap: 16px;
+  }
+
+  .role-collaboration-diagram {
+    min-height: 72px;
+  }
+
+  .role-collaboration-diagram svg {
+    display: none;
+  }
+
+  .role-team-column {
+    gap: 16px;
+  }
+
+  .role-team-card {
+    padding: 20px;
+  }
+
+  .role-team-icon {
+    margin-bottom: 16px;
+  }
+}
+
 
 /* From Research to Solution */
 
@@ -3920,8 +4093,7 @@ color: #1E2930;
   margin: 42px 14px 0;
   padding: 16px;
   border-radius: 12px;
-  background: white;
-  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.15);
+  background: #f7f5f4;
 }
 
 .setup-process > h3 {
