@@ -986,6 +986,9 @@ font-family: "Merriweather", serif;
   overflow: hidden;
 }
 
+.journey-feature-logo img {
+  width: 62px;
+}
 .evolution-feature-logo {
   display: flex;
   flex-direction: column;
