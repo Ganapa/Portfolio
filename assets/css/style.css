@@ -3583,6 +3583,17 @@ color: #1E2930;
   margin-top: 24px;
 }
 
+.post-launch-section {
+  margin-top: 24px;
+}
+
+.post-launch-intro {
+  margin: 0 0 20px;
+  color: #303a40;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
 .validation-section > .user-understanding-intro {
   margin: 0;
 }
@@ -3607,6 +3618,28 @@ color: #1E2930;
   border-radius: 8px;
   background: #f5f5f5;
   text-align: center;
+}
+
+.post-launch-metric {
+  text-align: left;
+}
+
+.post-launch-metric .problem-icon {
+  margin-bottom: 20px;
+}
+
+.post-launch-metric h3,
+.post-launch-summary h3 {
+  margin: 0 0 8px;
+  color: #222;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.post-launch-summary {
+  grid-column: 1 / -1;
+  text-align: left;
 }
 
 .validation-check-card h4 {
