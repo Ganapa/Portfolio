@@ -85,7 +85,7 @@ font-family: "Merriweather", serif;
   line-height: 1.02;
   letter-spacing: -0.045em;
 
-  color: #202a30;
+  color: #1E2930;
 }
 
 .hero-title span {
@@ -104,7 +104,7 @@ font-family: "Merriweather", serif;
   max-width: 620px;
   margin-bottom: 30px;
 
-  color: #303940;
+  color: #1E2930
   font-size: 16px;
   line-height: 1.6;
 }
@@ -227,7 +227,7 @@ font-family: "Merriweather", serif;
 
 .about-intro,
 .about-description {
-  color: #354047;
+  color: #1E2930;
   font-size: 16px;
   line-height: 1.7;
 }
@@ -284,7 +284,7 @@ font-family: "Merriweather", serif;
 
 .about-principle p {
   margin: 0;
-  color: #4c555b;
+  color: #1E2930;
   font-size: 16px;
   line-height: 1.6;
 }
@@ -315,7 +315,7 @@ font-family: "Merriweather", serif;
     border-top:1px solid #e8dfd7;
     border-bottom:1px solid #e8dfd7;
   background-color: #F7F5F3;
-  color: #202a30;
+  color: #1E2930;
 }
 
 .selected-work-title {
@@ -337,7 +337,7 @@ font-family: "Merriweather", serif;
   border: 1px solid #adb0b1;
   border-radius: 50px;
   background: #fff;
-  color: #303940;
+  color: #1E2930;
   font-family: "Inter", sans-serif;
   font-size: 13px;
   transition: all 0.2s ease;
@@ -400,7 +400,7 @@ font-family: "Merriweather", serif;
 
 .project-card p {
   margin-bottom: 22px;
-  color: #414141;
+  color: #1E2930;
   font-family: "Inter", sans-serif;
   font-size: 14px;
   line-height: 1.7;
@@ -585,7 +585,7 @@ font-family: "Merriweather", serif;
 
 .ideas-section {
   background-color: #fcfcfc;
-  color: #202a30;
+  color: #1E2930;
 }
 
 .ideas-section .section-label {
@@ -608,7 +608,7 @@ font-family: "Merriweather", serif;
 
 .ideas-description {
   margin-bottom: 36px;
-  color: #354047;
+  color: #1E2930;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 1.7;
@@ -662,7 +662,7 @@ font-family: "Merriweather", serif;
 
 .ideas-card-content h3 {
   margin-bottom: 12px;
-  color: #202a30;
+  color: #1E2930;
   font-family: "Inter", sans-serif;
   font-size: 23px;
   font-weight: 700;
@@ -671,7 +671,7 @@ font-family: "Merriweather", serif;
 
 .ideas-card-content p {
   margin-bottom: 24px;
-  color: #354047;
+  color: #1E2930;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 1.7;
@@ -1022,7 +1022,7 @@ font-family: "Merriweather", serif;
 
 .journey-feature-body h3 {
   margin: 0 0 6px 0;
-  color: #171b1f;
+  color: #1E2930;
   font-family:"Inter", sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -1033,7 +1033,7 @@ font-family: "Merriweather", serif;
 .journey-feature-body p {
   margin: 0;
   max-width: 28rem;
-  color: #1d252a;
+  color: #1E2930;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
@@ -1137,7 +1137,7 @@ font-family: "Merriweather", serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.65;
-  color: #454e54;
+  color: #1E2930;
 }
 
 
@@ -2206,7 +2206,7 @@ font-family: "Merriweather", serif;
   padding: 40px;
   box-sizing: border-box;
   background: #FCFCFC;
-  color: #222;
+  color: #1E2930;
 }
 
 .case-study-content h2 {
@@ -3495,7 +3495,7 @@ color: #1E2930;
 
 .learning-card p {
   margin: 0;
-  color: #303a40;
+  color: #1E2930;
   font-size: 16px;
   line-height: 1.6;
 }
@@ -3589,7 +3589,7 @@ color: #1E2930;
 
 .post-launch-intro {
   margin: 0 0 20px;
-  color: #303a40;
+  color: #1E2930;
   font-size: 15px;
   line-height: 1.6;
 }
@@ -3601,7 +3601,7 @@ color: #1E2930;
 .validation-subheading {
   margin: 18px 0 12px;
   color: #1e2930;
-  font-family: Georgia, serif;
+  font-family: "Merriweather", serif;
   font-size: 18px;
   font-weight: 400;
 }
@@ -3631,10 +3631,11 @@ color: #1E2930;
 .post-launch-metric h3,
 .post-launch-summary h3 {
   margin: 0 0 8px;
-  color: #222;
+  color: #1E2930;
   font-size: 16px;
   font-weight: 600;
   line-height: 1.4;
+  font-family: "Inter", sans-serif;
 }
 
 .post-launch-summary {
@@ -3644,14 +3645,15 @@ color: #1E2930;
 
 .validation-check-card h4 {
   margin: 0 0 8px;
-  color: #222;
+  color: #1E2930;
   font-size: 15px;
   font-weight: 600;
+  font-family: "Inter", sans-serif;
 }
 
 .validation-check-card p {
   margin: 0;
-  color: #303a40;
+  color: #1E2930;
   font-size: 14px;
   line-height: 1.5;
 }
@@ -3674,7 +3676,7 @@ color: #1E2930;
 
 .validation-screen figcaption {
   margin-bottom: 8px;
-  color: #303a40;
+  color: #1E2930;
   font-size: 14px;
 }
 
@@ -3709,7 +3711,7 @@ color: #1E2930;
 
 .validation-feedback-insight {
   margin: 0;
-  color: #303a40;
+  color: #1E2930;
   font-size: 15px;
   line-height: 1.6;
   text-align: center;
@@ -3725,7 +3727,7 @@ color: #1E2930;
 
 .validation-outcome {
   margin: 0;
-  color: #303a40;
+  color: #1E2930;
   font-size: 15px;
   line-height: 1.6;
 }
@@ -3745,7 +3747,7 @@ color: #1E2930;
 .user-journey-header h2 {
   margin: 0;
   color: #1e2930;
-  font-family: Georgia, serif;
+  font-family: "Merriweather", serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 1.3;
@@ -3780,7 +3782,7 @@ color: #1E2930;
 .empathy-map-card h4 {
   margin: 0 0 12px;
   color: #1e2930;
-  font-family: Georgia, serif;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 400;
 }
@@ -3788,7 +3790,7 @@ color: #1E2930;
 .empathy-map-card ul {
   margin: 0;
   padding-left: 20px;
-  color: #303a40;
+  color: #1E2930;
   font-size: 15px;
   line-height: 1.55;
 }
@@ -3800,7 +3802,7 @@ color: #1E2930;
 .user-journey-title {
   margin: 20px 0 16px;
   color: #1e2930;
-  font-family: Georgia, serif;
+  font-family: "Merriweather", serif;
   font-size: 20px;
 }
 
@@ -3899,11 +3901,12 @@ color: #1E2930;
   color: #1e2930;
   font-size: 16px;
   font-weight: 700;
+  font-family: "Inter", sans-serif;
 }
 
 .ideation-card p {
   margin: 0;
-  color: #303a40;
+  color: #1E2930;
   font-size: 14px;
   line-height: 1.5;
 }
@@ -3916,14 +3919,14 @@ color: #1E2930;
 .ideation-flow h3 {
   margin: 0 0 6px;
   color: #1e2930;
-  font-family: Georgia, serif;
+  font-family: "Merriweather", serif;
   font-size: 20px;
   font-weight: 400;
 }
 
 .ideation-flow > p {
   margin: 0 0 20px;
-  color: #303a40;
+  color: #1E2930;
   font-size: 16px;
   line-height: 1.5;
 }
