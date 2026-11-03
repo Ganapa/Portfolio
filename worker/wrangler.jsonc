@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "portfolio-assist-api",
+  "account_id": "4ee84ac66ab607163b15664ddfe3b331",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-01",
+  "preview_urls": true,
+  "observability": {
+    "enabled": true,
+    "logs": {
+      "enabled": true
+    }
+  },
+  "vars": {
+    "GEMINI_MODEL": "gemini-3.1-flash-lite",
+    "ALLOWED_ORIGINS": "https://ganapa.github.io"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "source": "traditionalview/index.html contact footer and ideas section",
+  "email": {
+    "label": "Drop me an email",
+    "address": "nagappa.ganapa@gmail.com",
+    "destination": "mailto:nagappa.ganapa@gmail.com"
+  },
+  "professionalProfile": {
+    "label": "Connect on LinkedIn",
+    "url": "https://www.linkedin.com/in/kurniganapanagappa/",
+    "target": "new_tab"
+  },
+  "resources": [
+    {
+      "title": "Statistics for UX",
+      "description": "UX success isn’t measured by one number. It’s about understanding what the numbers tell us about the user experience.",
+      "url": "https://lnkd.in/p/dcsvTZxp",
+      "target": "new_tab",
+      "publicAvailability": "not independently verified"
+    },
+    {
+      "title": "Beyond Interfaces. Into Experiences",
+      "description": "Exploring how UX can move beyond traditional screens to create more meaningful digital experiences.",
+      "url": "https://lnkd.in/p/dbP7yxDp",
+      "target": "new_tab",
+      "publicAvailability": "not independently verified"
+    },
+    {
+      "title": "When Does the UI Need to Appear?",
+      "description": "Exploring when interfaces should appear when an AI agent can already act on the user's behalf.",
+      "url": "https://lnkd.in/p/dadvNhmm",
+      "target": "new_tab",
+      "publicAvailability": "not independently verified"
+    }
+  ],
+  "education": [],
+  "certifications": [],
+  "documents": []
+}

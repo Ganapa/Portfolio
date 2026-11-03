@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "knowledgeSource": "The approved Traditional View portfolio content in the other knowledge JSON files.",
+  "responseRules": [
+    "Answer only with facts found in the approved portfolio knowledge. Do not invent responsibilities, outcomes, metrics, dates, links, clients or project details.",
+    "When asked about a project, give a concise introduction, describe only its stored classification and verified details, then offer its stored destination if one exists.",
+    "For broad discovery requests, map intent to matching projects or skills, explain what kind of work each is, and offer relevant verified destinations.",
+    "If the visitor does not name a project, use classifications, project summaries, skills and search terms to find relevant work.",
+    "For ambiguous questions, ask one short clarifying question instead of guessing.",
+    "For unsupported questions, say which related information is available and do not fill gaps with assumptions.",
+    "Do not describe every project as a complete case study. Preserve each project's stored classification; projects with a null classification have no approved classification.",
+    "Keep proposed concepts distinct from delivered work. Evolution is an exploration of traditional UX to AI-powered UX, not a claim of a delivered AI assistant product.",
+    "Use Lead UX Designer as the professional designation. Preserve Senior Software UI exactly when presenting the Sagarsoft designation.",
+    "Present career history in reverse chronological order. Group Sagarsoft, vSplash Tech Works and Melonic Info Tech under Web Designer. Do not mention the November 2022 to January 2023 career gap in visitor-facing responses.",
+    "For Time Off, link to the traditional portfolio homepage in the same tab and tell the visitor to select the existing Explore case study control to open the modal.",
+    "Respect each stored link target: same_tab destinations stay in the current tab; new_tab destinations open a new tab.",
+    "Do not present an external link as publicly accessible or verified unless that has been independently confirmed.",
+    "Never generate HTML, CSS or JavaScript from model output. Use only application-controlled, allowlisted navigation destinations and UI actions."
+  ],
+  "intentMappings": [
+    {
+      "intent": "case_studies",
+      "keywords": [
+        "case study",
+        "case studies",
+        "end-to-end case study",
+        "detailed project"
+      ],
+      "projectIds": [
+        "time-off-policy-setup"
+      ]
+    },
+    {
+      "intent": "design_systems",
+      "keywords": [
+        "design system",
+        "design systems",
+        "components",
+        "design tokens",
+        "Figma system"
+      ],
+      "projectIds": [
+        "forge"
+      ]
+    },
+    {
+      "intent": "ux_audits",
+      "keywords": [
+        "UX audit",
+        "UX audits",
+        "usability audit",
+        "accessibility gaps"
+      ],
+      "projectIds": [
+        "medivera"
+      ]
+    },
+    {
+      "intent": "ai_and_human_ai",
+      "keywords": [
+        "AI",
+        "AI-powered UX",
+        "human-AI",
+        "conversational UX",
+        "AI-assisted"
+      ],
+      "projectIds": [
+        "evolution",
+        "smart-implementation",
+        "time-off-policy-setup"
+      ]
+    },
+    {
+      "intent": "enterprise_ux",
+      "keywords": [
+        "enterprise UX",
+        "enterprise products",
+        "HCM",
+        "enterprise workflows"
+      ],
+      "projectIds": [
+        "smart-implementation",
+        "time-off-policy-setup",
+        "total-rewards",
+        "secutime",
+        "ach-store",
+        "helios-insurance",
+        "world-bank",
+        "crown-nest"
+      ]
+    },
+    {
+      "intent": "broad_project_discovery",
+      "keywords": [
+        "portfolio work",
+        "projects",
+        "what kind of projects",
+        "show me your work"
+      ],
+      "projectIds": [
+        "time-off-policy-setup",
+        "forge",
+        "medivera",
+        "evolution",
+        "smart-implementation",
+        "total-rewards",
+        "secutime",
+        "ach-store",
+        "helios-insurance",
+        "singapore-cpfb",
+        "bdo",
+        "world-bank",
+        "maersk",
+        "crown-nest",
+        "novartis",
+        "web-design-portfolio"
+      ]
+    }
+  ],
+  "limitationsToDisclose": [
+    "No education, certification or downloadable document details are present in the inspected traditional portfolio content.",
+    "External destinations are present in source, but public accessibility is not established by the source files."
+  ]
+}

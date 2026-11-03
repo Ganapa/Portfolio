@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 1,
+  "source": "traditionalview/my-journey.html skill category and career descriptions",
+  "toolsAndCapabilities": [
+    "Figma",
+    "ADP Waypoint Design System",
+    "Adobe XD",
+    "Adobe Illustrator",
+    "Adobe Photoshop",
+    "FigJam",
+    "Confluence",
+    "Maze",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "SCSS",
+    "React",
+    "jQuery",
+    "Bootstrap",
+    "Kendo UI",
+    "Grunt.js",
+    "Gulp.js",
+    "Visual Studio Code",
+    "PrimeFaces",
+    "Adobe Flash",
+    "High-Fidelity Prototyping"
+  ],
+  "experienceDetails": [
+    {
+      "name": "Figma",
+      "status": "documented hands-on use",
+      "documentedUsage": "Built Forge in Figma as a hands-on exploration of design systems.",
+      "careerEntryIds": [],
+      "projectIds": [
+        "forge"
+      ],
+      "source": "traditionalview/index.html#forge"
+    },
+    {
+      "name": "ADP Waypoint Design System",
+      "status": "experience details not specified in portfolio",
+      "careerEntryIds": [],
+      "projectIds": [],
+      "source": "traditionalview/my-journey.html skill category: Design Tools & Capabilities"
+    },
+    {
+      "name": "Adobe XD",
+      "status": "experience details not specified in portfolio",
+      "careerEntryIds": [],
+      "projectIds": [],
+      "source": "traditionalview/my-journey.html skill category: Design Tools & Capabilities"
+    },
+    {
+      "name": "Adobe Illustrator",
+      "status": "experience details not specified in portfolio",
+      "careerEntryIds": [],
+      "projectIds": [],
+      "source": "traditionalview/my-journey.html skill category: Design Tools & Capabilities"
+    },
+    {
+      "name": "Adobe Photoshop",
+      "status": "experience details not specified in portfolio",
+      "careerEntryIds": [],
+      "projectIds": [],
+      "source": "traditionalview/my-journey.html skill category: Design Tools & Capabilities"
+    },
+    {
+      "name": "FigJam",
+      "status": "experience details not specified in portfolio",
+      "careerEntryIds": [],
+      "projectIds": [],
+      "source": "traditionalview/my-journey.html skill category: Design Tools & Capabilities"
+    },
+    {
+      "name": "Confluence",
+      "status": "experience details not specified in portfolio",
+      "careerEntryIds": [],
+      "projectIds": [],
+      "source": "traditionalview/my-journey.html skill category: Design Tools & Capabilities"
+    },
+    {
+      "name": "Maze",
+      "status": "experience details not specified in portfolio",
+      "careerEntryIds": [],
+      "projectIds": [],
+      "source": "traditionalview/my-journey.html skill category: Design Tools & Capabilities"
+    },
+    {
+      "name": "HTML",
+      "status": "documented hands-on use",
+      "documentedUsage": "Developed web interfaces using HTML.",
+      "careerEntryIds": [
+        "sagarsoft",
+        "neudesic",
+        "liquidhub",
+        "web-designer"
+      ],
+      "projectIds": [
+        "helios-insurance",
+        "singapore-cpfb",
+        "bdo",
+        "world-bank",
+        "maersk",
+        "crown-nest",
+        "novartis",
+        "web-design-portfolio"
+      ],
+      "source": "traditionalview/my-journey.html career and project descriptions"
+    },
+    {
+      "name": "CSS",
+      "status": "documented hands-on use",
+      "documentedUsage": "Developed web interfaces using CSS.",
+      "careerEntryIds": [
+        "sagarsoft",
+        "neudesic",
+        "liquidhub",
+        "web-designer"
+      ],
+      "projectIds": [
+        "helios-insurance",
+        "singapore-cpfb",
+        "bdo",
+        "world-bank",
+        "maersk",
+        "crown-nest",
+        "novartis",
+        "web-design-portfolio"
+      ],
+      "source": "traditionalview/my-journey.html career and project descriptions"
+    },
+    {
+      "name": "JavaScript",
+      "status": "documented hands-on use",
+      "documentedUsage": "Developed web interfaces using JavaScript.",
+      "careerEntryIds": [
+        "sagarsoft",
+        "neudesic",
+        "liquidhub",
+        "web-designer"
+      ],
+      "projectIds": [
+        "helios-insurance",
+        "singapore-cpfb",
+        "bdo",
+        "world-bank",
+        "maersk",
+        "crown-nest",
+        "novartis",
+        "web-design-portfolio"
+      ],
+      "source": "traditionalview/my-journey.html career and project descriptions"
+    },
+    {
+      "name": "SCSS",
+      "status": "documented hands-on use",
+      "documentedUsage": "Developed front-end interfaces using SCSS; used SCSS compilation in build tasks.",
+      "careerEntryIds": [
+        "neudesic"
+      ],
+      "projectIds": [
+        "singapore-cpfb",
+        "bdo",
+        "world-bank",
+        "maersk",
+        "crown-nest"
+      ],
+      "source": "traditionalview/my-journey.html Neudesic experience and project descriptions"
+    },
+    {
+      "name": "React",
+      "status": "documented hands-on use",
+      "documentedUsage": "Contributed to front-end implementation using React.",
+      "careerEntryIds": [
+        "sagarsoft"
+      ],
+      "projectIds": [
+        "helios-insurance"
+      ],
+      "source": "traditionalview/my-journey.html Sagarsoft experience and Helios Insurance"
+    },
+    {
+      "name": "jQuery",
+      "status": "documented hands-on use",
+      "documentedUsage": "Contributed to responsive front-end development using jQuery.",
+      "careerEntryIds": [
+        "liquidhub"
+      ],
+      "projectIds": [
+        "novartis"
+      ],
+      "source": "traditionalview/my-journey.html Liquidhub experience and Novartis Healthcare Applications"
+    },
+    {
+      "name": "Bootstrap",
+      "status": "documented hands-on use",
+      "documentedUsage": "Worked with Bootstrap to create consistent and reusable interface components.",
+      "careerEntryIds": [
+        "neudesic"
+      ],
+      "projectIds": [
+        "singapore-cpfb",
+        "bdo",
+        "world-bank",
+        "maersk",
+        "crown-nest"
+      ],
+      "source": "traditionalview/my-journey.html Neudesic experience and project descriptions"
+    },
+    {
+      "name": "Kendo UI",
+      "status": "documented hands-on use",
+      "documentedUsage": "Worked with Kendo UI to create consistent and reusable interface components.",
+      "careerEntryIds": [
+        "neudesic"
+      ],
+      "projectIds": [
+        "singapore-cpfb",
+        "bdo",
+        "world-bank",
+        "maersk"
+      ],
+      "source": "traditionalview/my-journey.html Neudesic experience and project descriptions"
+    },
+    {
+      "name": "Grunt.js",
+      "status": "documented hands-on use",
+      "documentedUsage": "Used Grunt.js to automate front-end build tasks, including SCSS compilation, asset processing and optimization.",
+      "careerEntryIds": [
+        "neudesic"
+      ],
+      "projectIds": [
+        "singapore-cpfb"
+      ],
+      "source": "traditionalview/my-journey.html Singapore CPFB"
+    },
+    {
+      "name": "Gulp.js",
+      "status": "documented hands-on use",
+      "documentedUsage": "Used Gulp.js-based build automation.",
+      "careerEntryIds": [
+        "neudesic"
+      ],
+      "projectIds": [
+        "bdo"
+      ],
+      "source": "traditionalview/my-journey.html BDO"
+    },
+    {
+      "name": "Visual Studio Code",
+      "status": "experience details not specified in portfolio",
+      "careerEntryIds": [],
+      "projectIds": [],
+      "source": "traditionalview/my-journey.html skill category: Design Tools & Capabilities"
+    },
+    {
+      "name": "PrimeFaces",
+      "status": "experience details not specified in portfolio",
+      "careerEntryIds": [],
+      "projectIds": [],
+      "source": "traditionalview/my-journey.html skill category: Design Tools & Capabilities"
+    },
+    {
+      "name": "Adobe Flash",
+      "status": "documented hands-on use",
+      "documentedUsage": "Created interactive Flash elements, including animated banners, buttons, navigation elements and multimedia content.",
+      "careerEntryIds": [
+        "web-designer"
+      ],
+      "projectIds": [
+        "web-design-portfolio"
+      ],
+      "source": "traditionalview/my-journey.html Web Design & Development Portfolio"
+    },
+    {
+      "name": "High-Fidelity Prototyping",
+      "status": "documented hands-on use",
+      "documentedUsage": "Created prototypes and high-fidelity UI as part of end-to-end product design.",
+      "careerEntryIds": [
+        "tek-systems"
+      ],
+      "projectIds": [
+        "smart-implementation"
+      ],
+      "source": "traditionalview/my-journey.html Smart Implementation responsibilities"
+    }
+  ],
+  "additionalTechnologiesNamedInExperience": [
+    "Microsoft Fabric UI"
+  ],
+  "sourceContext": {
+    "MicrosoftVendorProjects": [
+      "HTML",
+      "CSS",
+      "SCSS",
+      "JavaScript",
+      "Gulp JS",
+      "React JS",
+      "Bootstrap",
+      "Microsoft Fabric UI",
+      "Kendo UI"
+    ],
+    "Helios": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React"
+    ],
+    "Novartis": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "jQuery"
+    ],
+    "WebDesign": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Adobe Flash"
+    ]
+  },
+  "additionalTechnologyExperienceDetails": [
+    {
+      "name": "Microsoft Fabric UI",
+      "status": "documented hands-on use",
+      "documentedUsage": "Used along with Bootstrap and Kendo UI.",
+      "careerEntryIds": [
+        "neudesic"
+      ],
+      "projectIds": [],
+      "source": "traditionalview/my-journey.html Neudesic experience"
+    }
+  ]
+}

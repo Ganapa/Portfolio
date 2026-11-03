@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "source": "traditionalview/my-journey.html",
+  "presentation": {
+    "order": "reverse_chronological",
+    "omitCareerGapFromVisitorResponses": true,
+    "groupedWebDesignerEmployers": [
+      "Sagarsoft",
+      "vSplash Tech Works",
+      "Melonic Info Tech"
+    ]
+  },
+  "experience": [
+    {
+      "company": "TEK Systems",
+      "client": "ADP",
+      "designation": "Lead UX Designer",
+      "period": "March 2023 - June 2026",
+      "location": "Hyderabad",
+      "overview": "Working at the ADP client location in Hyderabad, I owned UX strategy and end-to-end design across enterprise HCM products, from discovery and research to information architecture, prototyping, usability validation and delivery.",
+      "responsibilities": [
+        "Mentored and coached 2 junior UX designers across UX processes, interaction design, prototyping, usability and design quality."
+      ],
+      "projects": [
+        "Smart Implementation",
+        "Time Off",
+        "Total Rewards",
+        "SecuTime"
+      ],
+      "destination": "traditionalview/my-journey.html#tek-systems"
+    },
+    {
+      "company": "Tescra Software Pvt Ltd",
+      "designation": "Product Designer",
+      "period": "January 2023 – February 2023",
+      "location": "Bengaluru",
+      "projects": [
+        "ACH Store"
+      ],
+      "destination": "traditionalview/my-journey.html#tescra"
+    },
+    {
+      "company": "Sagarsoft India Ltd",
+      "designation": "Senior Software UI",
+      "period": "November 2020 – November 2022",
+      "location": "Hyderabad",
+      "overview": "Rejoined Sagarsoft as a Senior Software UI Designer, contributing across product UI/UX, front-end development and visual design. Worked on Helios, a corporate insurance platform supporting organizations and employees with group insurance benefits and services. Partnered with Project Managers, Business Analysts and developers to translate requirements into user flows, wireframes, interaction designs and high-fidelity interfaces, while contributing to front-end implementation using HTML, CSS, JavaScript and React.",
+      "additionalContributions": [
+        "Corporate email templates",
+        "25th Anniversary logo",
+        "Other UI and visual design initiatives"
+      ],
+      "projects": [
+        "Helios Insurance"
+      ],
+      "destination": "traditionalview/my-journey.html#sagarsoft"
+    },
+    {
+      "company": "Neudesic (acquired by IBM)",
+      "designation": "Senior UI Consultant",
+      "period": "March 2014 – November 2020",
+      "location": "Hyderabad",
+      "clientContext": "With Microsoft as a vendor",
+      "overview": "Worked as a Senior UI Consultant at Neudesic, delivering UI design and front-end solutions across enterprise projects for Singapore CPFB, BDO, World Bank, Maersk and Crown Nest. Projects covered government, finance, logistics and enterprise business domains, with a focus on translating business and technical requirements into clear, responsive and accessible user interfaces.",
+      "responsibilities": [
+        "Collaborated with business, technical and development teams to create visual designs, interface layouts and front-end experiences using HTML, CSS, SCSS, JavaScript, Gulp JS and React JS, along with Bootstrap, Microsoft Fabric UI and Kendo UI.",
+        "Contributed to both Microsoft-vendor projects and Neudesic's own projects, maintaining consistency, usability and implementation quality across enterprise applications."
+      ],
+      "projects": [
+        "Singapore CPFB",
+        "BDO",
+        "World Bank Group",
+        "MAERSK",
+        "Crown Nest"
+      ],
+      "destination": "traditionalview/my-journey.html#neudesic"
+    },
+    {
+      "company": "Liquidhub India Pvt Ltd",
+      "designation": "UI Designer",
+      "period": "January 2011 – March 2014",
+      "location": "Hyderabad",
+      "overview": "Worked as a UI Designer delivering healthcare digital applications for Novartis across web, mobile and tablet platforms, with a focus on creating clear, intuitive and user-friendly experiences for patients and healthcare professionals.",
+      "responsibilities": [
+        "Translated business and functional requirements into user flows, wireframes and high-fidelity interface designs across different devices and screen sizes.",
+        "Collaborated with project teams and developers to ensure consistent visual and interaction experiences across platforms, while also contributing to responsive front-end development using HTML, CSS, JavaScript and jQuery."
+      ],
+      "additionalContributions": [
+        "Designed logos and visual identity assets for internal and project-related initiatives.",
+        "Created posters and promotional materials for organizational and project communication.",
+        "Designed corporate email templates for internal and external communication.",
+        "Supported broader visual communication requirements alongside core UI design responsibilities."
+      ],
+      "projects": [
+        "Novartis Healthcare Applications"
+      ],
+      "destination": "traditionalview/my-journey.html#liquidhub"
+    },
+    {
+      "company": "Sagarsoft, vSplash Tech Works & Melonic Info Tech",
+      "designation": "Web Designer",
+      "period": "August 2005 – January 2011",
+      "location": "Hyderabad",
+      "overview": [
+        "Worked as a Web Designer across projects in education, online directories and e-commerce, designing and developing websites and web interfaces based on business and client requirements.",
+        "Focused on creating visually engaging, user-friendly and well-structured web experiences, including information-rich directory platforms with search and category-based navigation. Translated requirements into page layouts, navigation structures and interactive web interfaces while contributing to front-end development using HTML, CSS and JavaScript.",
+        "Ensured cross-browser compatibility and consistent visual presentation across commonly used web browsers, while maintaining usability and implementation quality across client projects."
+      ],
+      "additionalContributions": [
+        "Designed logos and visual identity assets for websites and client projects.",
+        "Created banners, posters and promotional graphics for digital and marketing requirements.",
+        "Designed email templates for client and business communications.",
+        "Created multimedia elements and visual assets to support website experiences.",
+        "Supported visual design requirements across multiple client projects in addition to core web design and development responsibilities."
+      ],
+      "projects": [
+        "Web Design & Development Portfolio"
+      ],
+      "destination": "traditionalview/my-journey.html#web-designer"
+    },
+    {
+      "company": "Graffiti Engineering Solutions",
+      "designation": "Lab Faculty & Graphic Designer",
+      "period": "March 2005 – August 2005",
+      "location": "Hyderabad",
+      "overview": "Worked as a Lab Faculty and Graphic Designer, combining hands-on web and graphic design expertise with classroom and practical training responsibilities. Trained students in web design and graphic design fundamentals while also creating visual communication materials for the organization.",
+      "additionalContributions": [
+        "Trained students in web design and graphic design concepts and practical techniques.",
+        "Provided hands-on guidance on web page design, visual composition and design tools.",
+        "Designed brochures, banners, logos and posters for organizational and promotional requirements.",
+        "Created visual assets based on communication and branding requirements.",
+        "Supported students with practical design exercises and project work.",
+        "Applied hands-on design knowledge to both training and real-world graphic design assignments."
+      ],
+      "destination": "traditionalview/my-journey.html#graffiti"
+    }
+  ]
+}

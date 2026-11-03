@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "source": "traditionalview/my-journey.html skill groups",
+  "categories": [
+    {
+      "name": "Product & UX Strategy",
+      "skills": [
+        "Product Strategy",
+        "Product Discovery",
+        "UX Strategy",
+        "User-Centered Design",
+        "Design Thinking",
+        "Enterprise UX",
+        "Stakeholder Management"
+      ]
+    },
+    {
+      "name": "UX Design & Research",
+      "skills": [
+        "User Research",
+        "User Interviews",
+        "Personas",
+        "Journey Mapping",
+        "Information Architecture",
+        "User Flows",
+        "Task Flows",
+        "Wireframing",
+        "Prototyping",
+        "Usability Testing"
+      ]
+    },
+    {
+      "name": "UI & Product Design",
+      "skills": [
+        "Interaction Design",
+        "Visual Design",
+        "Responsive Design",
+        "Data-driven Experiences",
+        "Enterprise Applications",
+        "Web & Mobile Experiences"
+      ]
+    },
+    {
+      "name": "AI & Human-AI Experience",
+      "skills": [
+        "AI-Assisted Design Workflows",
+        "AI-Powered Experiences",
+        "Conversational UX",
+        "Human-AI Interaction",
+        "AI-Assisted UX Exploration",
+        "AI-Assisted Recommendations",
+        "Human-in-the-Loop Validation"
+      ]
+    },
+    {
+      "name": "Design Systems & Accessibility",
+      "skills": [
+        "Design System Strategy",
+        "Component Libraries",
+        "Reusable Components",
+        "Design Tokens",
+        "WCAG",
+        "Accessible Design"
+      ]
+    },
+    {
+      "name": "Design Leadership",
+      "skills": [
+        "Design Reviews",
+        "Mentoring",
+        "Designer Coaching",
+        "Design Quality",
+        "Cross-functional Leadership"
+      ]
+    },
+    {
+      "name": "Design Tools & Capabilities",
+      "skills": [
+        "Figma",
+        "ADP Waypoint Design System",
+        "Adobe XD",
+        "Adobe Illustrator",
+        "Adobe Photoshop",
+        "FigJam",
+        "Confluence",
+        "Maze",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "SCSS",
+        "React",
+        "jQuery",
+        "Bootstrap",
+        "Kendo UI",
+        "Grunt.js",
+        "Gulp.js",
+        "Visual Studio Code",
+        "PrimeFaces",
+        "Adobe Flash",
+        "High-Fidelity Prototyping"
+      ]
+    }
+  ]
+}
