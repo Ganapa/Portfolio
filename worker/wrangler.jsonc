@@ -12,7 +12,7 @@
     }
   },
   "vars": {
-    "GEMINI_MODEL": "gemini-3.1-flash-lite",
+    "GEMINI_MODEL": "gemini-flash-lite-latest",
     "ALLOWED_ORIGINS": "https://ganapa.github.io"
   }
 }
